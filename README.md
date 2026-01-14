@@ -75,8 +75,9 @@ Frontend Developer with hands-on experience building **responsive, API-driven we
 
 ## 🎯 What I’m Looking For
 
-* Frontend Developer Intern / Junior Frontend Developer roles
-* Startup or product-based teams
-* React-focused frontend development with real product impact
+• Frontend Developer Intern / Junior Frontend Developer roles  
+• Early-stage or product-focused teams  
+• React-based frontend development with real user impact  
+
 
 
