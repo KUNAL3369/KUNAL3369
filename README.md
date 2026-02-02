@@ -22,7 +22,7 @@ I bring experience from both production internships and teaching roles, combinin
 ## 💼 Professional Experience
 
 ### Frontend Developer Intern | Boomxmedia
-**Oct 2024 – Dec 2024 | Remote**
+**Oct 2025 – Dec 2025 | Remote**
 
 Built and optimized production-grade React interfaces for internal marketing and operations teams (20+ users):
 
