@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" fill="none">
+  <style>
+    .bg { fill: #ffffff; }
+    .text { fill: #1f2937; font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; }
+    .arrow { stroke: #9ca3af; stroke-width: 1.5; }
+    .box { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1; rx: 6; }
+    .box-accent { fill: #eff6ff; stroke: #93c5fd; stroke-width: 1; rx: 6; }
+    .title { fill: #6b7280; font-family: system-ui, -apple-system, sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 0.05em; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .text { fill: #e6edf3; }
+      .arrow { stroke: #30363d; }
+      .box { fill: #161b22; stroke: #30363d; }
+      .box-accent { fill: #0d1b2a; stroke: #1f6feb; }
+      .title { fill: #8b949e; }
+    }
+  </style>
+  <rect class="bg" width="900" height="120" rx="8"/>
+  <text x="20" y="22" class="title">FROM BUSINESS PROBLEM → PRODUCTION AI</text>
+
+  <!-- Step 1: Business Requirement -->
+  <rect x="20" y="34" width="100" height="36" class="box-accent"/>
+  <text x="70" y="57" text-anchor="middle" class="text" fill="#2563eb">Business Requirement</text>
+
+  <!-- Arrow 1 -->
+  <path d="M 124 52 L 140 52" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: Understand Workflow -->
+  <rect x="144" y="34" width="100" height="36" class="box"/>
+  <text x="194" y="57" text-anchor="middle" class="text">Understand Manual Workflow</text>
+
+  <!-- Arrow 2 -->
+  <path d="M 248 52 L 264 52" class="arrow"/>
+
+  <!-- Step 3: Design Solution -->
+  <rect x="268" y="34" width="96" height="36" class="box"/>
+  <text x="316" y="57" text-anchor="middle" class="text">Design AI Solution</text>
+
+  <!-- Arrow 3 -->
+  <path d="M 368 52 L 384 52" class="arrow"/>
+
+  <!-- Step 4: Integrate AI -->
+  <rect x="388" y="34" width="96" height="36" class="box-accent"/>
+  <text x="436" y="57" text-anchor="middle" class="text" fill="#2563eb">Integrate AI</text>
+
+  <!-- Arrow 4 -->
+  <path d="M 488 52 L 504 52" class="arrow"/>
+
+  <!-- Step 5: Build Full Stack -->
+  <rect x="508" y="34" width="96" height="36" class="box"/>
+  <text x="556" y="57" text-anchor="middle" class="text">Build Full-Stack System</text>
+
+  <!-- Arrow 5 -->
+  <path d="M 608 52 L 624 52" class="arrow"/>
+
+  <!-- Step 6: Deploy & Validate -->
+  <rect x="628" y="34" width="100" height="36" class="box"/>
+  <text x="678" y="57" text-anchor="middle" class="text">Deploy &amp; Validate</text>
+
+  <!-- Arrow 6 -->
+  <path d="M 732 52 L 748 52" class="arrow"/>
+
+  <!-- Step 7: Reduce Manual Work -->
+  <rect x="752" y="34" width="128" height="36" class="box-accent"/>
+  <text x="816" y="57" text-anchor="middle" class="text" fill="#2563eb">Reduce Manual Work</text>
+
+  <!-- Bottom bar: End-to-End Ownership -->
+  <rect x="20" y="84" width="860" height="24" rx="4" fill="#2563eb" opacity="0.08" stroke="#2563eb" stroke-width="0.5"/>
+  <text x="450" y="99" text-anchor="middle" class="text" fill="#2563eb" font-size="10">End-to-End Ownership — Requirements → Design → Build → Deploy → Iterate</text>
+</svg>

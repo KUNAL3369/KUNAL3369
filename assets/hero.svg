@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none" width="100%">
+  <style>
+    .bg { fill: #0b0f19; stroke: #1e293b; stroke-width: 1; }
+    .grid { stroke: #1e293b; stroke-width: 0.5; stroke-dasharray: 4 4; opacity: 0.35; }
+    .accent-line { stroke: #3b82f6; stroke-width: 2; opacity: 0.85; }
+    .node-dot { fill: #38bdf8; }
+    .node-line { stroke: #334155; stroke-width: 1; }
+    
+    .title { fill: #f8fafc; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 38px; font-weight: 800; letter-spacing: -0.025em; }
+    .subtitle { fill: #38bdf8; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 15px; font-weight: 600; letter-spacing: 0.15em; }
+    .tagline { fill: #94a3b8; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 400; }
+    .bullets { fill: #cbd5e1; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 14px; font-weight: 500; }
+    .status-tag { fill: #34d399; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; }
+    .status-bg { fill: #064e3b; fill-opacity: 0.4; stroke: #059669; stroke-width: 1; rx: 4; }
+    .tech-border { stroke: #334155; stroke-width: 1; rx: 6; fill: #1e293b; fill-opacity: 0.5; }
+
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #0f172a; stroke: #334155; }
+    }
+  </style>
+
+  <!-- Background card -->
+  <rect class="bg" width="1200" height="300" rx="12"/>
+
+  <!-- Subtle background grid -->
+  <line x1="0" y1="60" x2="1200" y2="60" class="grid" />
+  <line x1="0" y1="120" x2="1200" y2="120" class="grid" />
+  <line x1="0" y1="180" x2="1200" y2="180" class="grid" />
+  <line x1="0" y1="240" x2="1200" y2="240" class="grid" />
+  
+  <line x1="200" y1="0" x2="200" y2="300" class="grid" />
+  <line x1="400" y1="0" x2="400" y2="300" class="grid" />
+  <line x1="600" y1="0" x2="600" y2="300" class="grid" />
+  <line x1="800" y1="0" x2="800" y2="300" class="grid" />
+  <line x1="1000" y1="0" x2="1000" y2="300" class="grid" />
+
+  <!-- Subtle architecture trace lines & nodes on right -->
+  <g opacity="0.65">
+    <path d="M 850 80 L 950 80 L 1000 130 L 1100 130" class="node-line" />
+    <path d="M 900 220 L 980 220 L 1030 170 L 1120 170" class="node-line" />
+    <path d="M 950 80 L 950 220" class="node-line" stroke-dasharray="2 2" />
+    <circle cx="850" cy="80" r="3" class="node-dot" />
+    <circle cx="950" cy="80" r="3" class="node-dot" />
+    <circle cx="1000" cy="130" r="3" class="node-dot" />
+    <circle cx="1100" cy="130" r="3" class="node-dot" />
+    <circle cx="900" cy="220" r="3" class="node-dot" />
+    <circle cx="980" cy="220" r="3" class="node-dot" />
+    <circle cx="1030" cy="170" r="3" class="node-dot" />
+    <circle cx="1120" cy="170" r="3" class="node-dot" />
+  </g>
+
+  <!-- Status tag in top right -->
+  <g transform="translate(1020, 24)">
+    <rect class="status-bg" x="0" y="0" width="130" height="24" rx="4" />
+    <circle cx="14" cy="12" r="3" fill="#34d399" />
+    <text x="24" y="16" class="status-tag">SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Left Accent Line -->
+  <line x1="50" y1="45" x2="50" y2="255" class="accent-line" />
+
+  <!-- Main Header Content -->
+  <g transform="translate(80, 0)">
+    <!-- Subtitle / Role -->
+    <text x="0" y="75" class="subtitle">APPLIED AI ENGINEER</text>
+
+    <!-- Name -->
+    <text x="0" y="125" class="title">KUNAL PRABHAKAR</text>
+
+    <!-- Core Positioning Line -->
+    <text x="0" y="168" class="tagline">Turning real business workflows into production AI systems.</text>
+
+    <!-- Capability Tag Box -->
+    <g transform="translate(0, 202)">
+      <rect class="tech-border" x="0" y="0" width="560" height="38" />
+      <text x="20" y="24" class="bullets">Agentic AI  ·  RAG  ·  AI Infrastructure  ·  Full-Stack AI</text>
+    </g>
+  </g>
+</svg>
