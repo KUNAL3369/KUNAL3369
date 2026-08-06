@@ -1,7 +1,7 @@
 ![Kunal Prabhakar Header](assets/hero.svg)
 
 <p align="center">
-  <a href="https://kunal3369.github.io/kunal-portfolio">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://kunal3369.github.io/kunal_portfolio">Portfolio</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/prabhakarkunal">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:kunal.prabhakar3082@gmail.com">Email</a>
 </p>
